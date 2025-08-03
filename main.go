@@ -3,10 +3,9 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"github.com/bsdpunk/newShell/shell"
 	"log"
 	"os"
-
-	"github.com/bsdpunk/newShell/shell"
 )
 
 func main() {

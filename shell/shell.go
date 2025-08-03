@@ -6,7 +6,7 @@ import (
 	//"./character"
 	"github.com/bsdpunk/newShell/shell/commands"
 	//"github.com/bsdpunk/dndshell/shell/dice"
-	//	"github.com/bsdpunk/dndshell/shell/general"
+	"github.com/bsdpunk/newShell/shell/general"
 	//	"github.com/bsdpunk/dndshell/shell/quotes"
 	//"github.com/gobs/readline"
 	"os"
