@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"github.com/bsdpunk/newShell/shell"
+	"github.com/bsdpunk/macNetTools/shell"
 	"log"
 	"os"
 )

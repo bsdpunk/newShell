@@ -1,2 +1,4 @@
+github.com/bsdpunk/newShell v0.0.0-20250803180026-a05f62a4d6e1 h1:pTGdU/U2Tl7DO7emajUrYbeqH9D0aQlPhBEw2GXxUGA=
+github.com/bsdpunk/newShell v0.0.0-20250803180026-a05f62a4d6e1/go.mod h1:sF7xBQ7IASh/MGICTKw6cV6ZzWIrrQO5nQETPm5Zg/o=
 github.com/gobs/readline v0.0.0-20170926231444-6e67dc6279f7 h1:XgEIVtuTLN5IwZXaV0MjhgvJ//vDd7x41lnDeM+i/5A=
 github.com/gobs/readline v0.0.0-20170926231444-6e67dc6279f7/go.mod h1:3Uep5gw32lz9w3eUUDq9x4onizOQIxJl1Dk2erZKUSE=

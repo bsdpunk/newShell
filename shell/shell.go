@@ -2,8 +2,9 @@ package shell
 
 import (
 	"fmt"
-	"github.com/bsdpunk/newShell/shell/commands"
-	"github.com/bsdpunk/newShell/shell/general"
+	"github.com/bsdpunk/macNetTools/shell/arp"
+	"github.com/bsdpunk/macNetTools/shell/commands"
+	"github.com/bsdpunk/macNetTools/shell/general"
 	"github.com/gobs/readline"
 	"os"
 	"strings"
@@ -30,6 +31,13 @@ var coms = commands.Commands{
 		Usage:     "Clear the screen",
 		Action:    general.Clear,
 		Category:  "general",
+	},
+	{
+		Name:      "arpTable",
+		ShortName: "arp",
+		Usage:     "Display Arp Table",
+		Action:    arp.ArpTable,
+		Category:  "arp",
 	},
 }
 
