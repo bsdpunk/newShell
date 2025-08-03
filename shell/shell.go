@@ -4,20 +4,22 @@ import (
 	"fmt"
 	//"github.com/bsdpunk/dndshell/shell/character"
 	//"./character"
-	"github.com/bsdpunk/newShell/shell/commands"
+	"newShell/shell/commands"
 	//"github.com/bsdpunk/dndshell/shell/dice"
-	"github.com/bsdpunk/newShell/shell/general"
+	"newShell/shell/general"
 	//	"github.com/bsdpunk/dndshell/shell/quotes"
-	//"github.com/gobs/readline"
+	"github.com/gobs/readline"
 	"os"
 	"strings"
 )
 
 var found string = "no"
 var list []string
-var cr character.Character
+
+// var cr character.Character
 var matches = make([]string, 0, len(list))
-var Qu quotes.Quotes
+
+// var Qu quotes.Quotes
 var coms = commands.Commands{
 	{
 		Name:      "Quit",
@@ -65,8 +67,8 @@ func NoAction() {
 
 }
 func Shell(args []string) {
-	character.Load()
-	Qu.Load()
+	//character.Load()
+	//Qu.Load()
 	for _, c := range coms {
 		list = append(list, c.Name)
 		list = append(list, c.ShortName)
@@ -94,7 +96,7 @@ func Shell(args []string) {
 		}
 		os.Exit(0)
 	}
-	Qu.RandQ()
+	//Qu.RandQ()
 	prompt := "> "
 	matches = make([]string, 0, len(list))
 
