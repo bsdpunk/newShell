@@ -3,8 +3,8 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"github.com/bsdpunk/newShell/shell"
 	"log"
-	"newShell/shell"
 	"os"
 )
 

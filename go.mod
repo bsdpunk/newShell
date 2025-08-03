@@ -1,4 +1,4 @@
-module newShell
+module github.com/bsdpunk/newShell
 
 go 1.24.5
 
